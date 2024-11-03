@@ -14,8 +14,8 @@ public class Load {
 		RandomStringGenerator orderID = new RandomStringGenerator();
 		RandomStringGenerator customerID = new RandomStringGenerator();
 		
-		Customer VIP = new Customer("Tung", true);
-		Customer Normal = new Customer("Mark", false);
+		Customer VIP = new Customer("VIP", true);
+		Customer Normal = new Customer("Normal", false);
 		
 		menu.addItem(new FoodItem("Pizza", 3.0, "Hot Meal"));
 		menu.addItem(new FoodItem("Burger", 4.5, "Hot Meal"));
