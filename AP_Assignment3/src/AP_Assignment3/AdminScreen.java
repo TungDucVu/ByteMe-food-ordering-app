@@ -337,11 +337,7 @@ public class AdminScreen {
 	
 	private void reportGenerator(Scanner scanner, OrderHistory orderHistory) {
 		orderHistory.viewOrders();
-		
-		ItemSales itemSales = new ItemSales();
-		itemSales.generateItemSalesReport(orderHistory);
-		
-		itemSales.saveToFile(FILE_NAME_ITEMSALES);
+		orderHistory.showItemSales();
 	}
 	
 	private String enterName(Scanner scanner) {
