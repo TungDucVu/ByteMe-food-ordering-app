@@ -5,7 +5,6 @@ public class Load {
 	private static final String FILE_NAME_ORDERHISTORY = "OrderHistory.ser";
 	private static final String FILE_NAME_ORDERID = "OrderID.ser";
 	private static final String FILE_NAME_CUSTOMERID = "CustomerID.ser";
-	private static final String FILE_NAME_ITEMSALES = "ItemSales.ser";
 	private static final String FILE_NAME_VIP = "VIP.ser";
 	private static final String FILE_NAME_NORMAL = "Normal.ser";
 	
@@ -14,7 +13,6 @@ public class Load {
 		OrderHistory orderHistory = new OrderHistory();
 		RandomStringGenerator orderID = new RandomStringGenerator();
 		RandomStringGenerator customerID = new RandomStringGenerator();
-		ItemSales itemSales = new ItemSales();
 		
 		Customer VIP = new Customer("Tung", true);
 		Customer Normal = new Customer("Mark", false);
@@ -35,7 +33,6 @@ public class Load {
 		orderHistory.saveToFile(FILE_NAME_ORDERHISTORY);
 		orderID.saveToFile(FILE_NAME_ORDERID);
 		customerID.saveToFile(FILE_NAME_CUSTOMERID);
-		itemSales.saveToFile(FILE_NAME_ITEMSALES);
 		VIP.saveToFile(FILE_NAME_VIP);
 		Normal.saveToFile(FILE_NAME_NORMAL);
 		
