@@ -1,9 +1,9 @@
 ByteMe Food Ordering application:
-• CLI-Based
-• Help students browse the canteen menu, place orders, and track their delivery without leaving their comfy hostel rooms.
-• Enable canteen staff to manage menu items and process orders efficiently.
-• Maintain order histories (so you can remember what you ate during that 3 AM coding session).
-• Use collections to organise and sort data to make this process efficient!
+1. CLI-Based
+2. Help students browse the canteen menu, place orders, and track their delivery without leaving their comfy hostel rooms.
+3. Enable canteen staff to manage menu items and process orders efficiently.
+4. Maintain order histories (so you can remember what you ate during that 3 AM coding session).
+5. Use collections to organise and sort data to make this process efficient!
 
 To start:
 1. Run AP_Assignment3\src\AP_Assignment3\Load.java once
