@@ -22,5 +22,5 @@ Assumption:
   Delivering: Order out for delivery
   Delivered: Order delivered to customer
   Canceled: Order canceled due to customer canceling, admin canceling, or items being removed from the menu.
-
+3. They concept "keyword" is not cleared. I guess category for food item is enough for the "keyword" concept.
 
