@@ -122,6 +122,26 @@ public class OrderHistory implements Serializable{
             }
         }
     }
+	
+    //fix itemsales report
+    public void showItemSales() {
+        Map<String, Integer> itemSalesMap = new HashMap<>();
+        
+        for (Order order : orderQueue) {
+            for (CartItem item : order.getCart().getItems()) {
+                if (itemSalesMap.containsKey(item.getFoodItem().getName())) {
+                    itemSalesMap.put(item.getFoodItem().getName(), itemSalesMap.get(item.getFoodItem().getName()) + item.getQuantity());
+                } else {
+                    itemSalesMap.put(item.getFoodItem().getName(), item.getQuantity());
+                }
+            }
+        }
+        
+        // Display the total sales for each item
+        for (Map.Entry<String, Integer> entry : itemSalesMap.entrySet()) {
+            System.out.println("Item: " + entry.getKey()+ ", Total Quantity Sold: " + entry.getValue());
+        }
+    }
 
  // Save Course list to a file
     public void saveToFile(String filename) {
