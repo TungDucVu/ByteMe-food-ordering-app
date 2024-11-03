@@ -13,3 +13,14 @@ ByteMe has already been loaded with 9 different food items on the menu, as well 
 1. Admin: to keep track of food items and customers orders
 2. Customer: to interact with the application: view menu, order food, track order, view and give reviews on food item
 There are two types of customers: VIP and Normal. Orders from VIP customers will appear first in the System's Order Queue and will be handled first.
+
+Assumption:
+1. Assume there will be 3 main user roles: Admin, VIP customer, and Normal customer. They cannot get access to each other’s accounts. So that a login system is not included
+2. The order status: Pending, Processing, Delivering, Delivered, and Canceled.
+  Pending: Newly generated orders
+  Processing: Order being processed
+  Delivering: Order out for delivery
+  Delivered: Order delivered to customer
+  Canceled: Order canceled due to customer canceling, admin canceling, or items being removed from the menu.
+
+
