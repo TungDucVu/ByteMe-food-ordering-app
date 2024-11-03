@@ -9,7 +9,7 @@ To start:
 1. Run AP_Assignment3\src\AP_Assignment3\Load.java once
 2. Run AP_Assignment3\src\AP_Assignment3\Main.java and simply follow the instruction
 
-ByteMe has already been loaded with 9 different food items in the menu, as well as 3 different login roles:
+ByteMe has already been loaded with 9 different food items on the menu, as well as 3 different login roles:
 1. Admin: to keep track of food items and customers orders
 2. Customer: to interact with the application: view menu, order food, track order, view and give reviews on food item
-There are 2 types of customers: VIP and Normal. Order from VIP customer will appear first in the System's Order Queue, and will be handled first
+There are two types of customers: VIP and Normal. Orders from VIP customers will appear first in the System's Order Queue and will be handled first.
