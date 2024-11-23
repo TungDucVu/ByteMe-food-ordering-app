@@ -22,5 +22,19 @@ Assumption:
   Delivering: Order out for delivery
   Delivered: Order delivered to customer
   Canceled: Order canceled due to customer canceling, admin canceling, or items being removed from the menu.
-3. They concept "keyword" is not cleared. I guess category for food item is enough for the "keyword" concept.
+
+
+***Assignment 4 Update***
+1. 100% GUI instead of CLI
+2. Added a login system
+3. JUnit testing on Ordering out-of-stock items and Invalid Login attempts
+4. I/O stream management: Serializable
+  Serializable classes: 
+  Menu -> Menu.ser
+  CustomerHistory -> CustomerHistory.ser
+  OrderHistory -> OrderHistory.ser
+  
+  Special Serialized files:
+  CustomerID -> Storing unique ID of each Customer
+  OrderID -> Storing unique ID of each Order
 
